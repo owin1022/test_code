@@ -30,8 +30,6 @@ def reverseJson(keyStack,val_result):
 	for keys in paths:
 		add_elem(jsondata, keys, keyStack[-1] )
 
-	print("result:",jsondata)
-	
 	return jsondata
 
 def key_generator(d,keyVal):
@@ -65,7 +63,7 @@ if __name__ == '__main__':
 	  }
 	}
 
-	output = reverse_nested_json(input_value,"deserve ")
+	output = reverse_nested_json(input_value,"deserve")
 
 	print("output_value:",output)
 	
